@@ -10,6 +10,17 @@ int m[501][501]; // 행렬 곱셈에 따른 minimum cost i~j까지
 int p[501]; // 행렬의 최종 크기를 담기 위한 배열
 int k_position[501][501]; // 괄호로 분리되는 위치를 기억하기 위한 배열.
 
+void PrintOptimalParen(int s[][501], int i, int j)
+{
+	if (i == j) printf("A%d", i);
+	else {
+		printf("(");
+		PrintOptimalParen(s, i, s[i][j]);
+		PrintOptimalParen(s, s[i][j] + 1, j);
+		printf(")");
+	}
+}
+
 int main(void)
 {
 	int n; scanf("%d", &n);
@@ -32,7 +43,7 @@ int main(void)
 		for (int i = 1; i <= n - chain + 1; i++) {
 			// 3. 정해진 i에 따라서 chain길이 만큼 곱해야 하므로 j가 그 역할을 한다. chain길이 만큼 끊어주는 것이다.
 			int j = i + chain - 1;
-			printf("곱하는 행렬의 개수 : %d, 어디까지? : %d\n-----------------------------------\n", chain, j);
+			//printf("곱하는 행렬의 개수 : %d, 어디까지? : %d\n-----------------------------------\n", chain, j);
 
 			// 처음의 최소 비용은 없기 때문에 최소비용을 찾기 위해서 큰값으로 초기화 해주어야 한다.
 			m[i][j] = 2100000000;
@@ -41,18 +52,20 @@ int main(void)
 			// EX) 1부터 3까지 곱하는 것은 (1,1),(2,3)과 (1,2),(3,3)으로 나뉜다.
 			// 따라서 k의 범위는 i부터 j-1이 되는 것이다. k+1에 대해서 계산할 때가 있기 때문에 j-1까지..
 			for (int k = i; k <= j - 1; k++) {
-				printf("%d부터 %d까지, %d부터 %d까지의 최소비용\n", i, k, k + 1, j);
-				printf("p[i-1] : %d, p[k] : %d, p[j] : %d", p[i-1], p[k], p[j]);
+				//printf("%d부터 %d까지, %d부터 %d까지의 최소비용\n", i, k, k + 1, j);
+				//printf("p[i-1] : %d, p[k] : %d, p[j] : %d", p[i-1], p[k], p[j]);
 				int temp_min = m[i][k] + m[k + 1][j] + p[i-1] * p[k] * p[j];
-				printf(", 최소비용 : %d\n", temp_min);
-				printf("-------------------------------------------\n");
+				//printf(", 최소비용 : %d\n", temp_min);
+				//printf("-------------------------------------------\n");
 				if (temp_min < m[i][j]) {
 					m[i][j] = temp_min;
-					k_position[i][j] = k;
+					k_position[i][j] = k; // 곱셈이 최소비용을 내는 split하는 위치
 				}
 			}
 		}
 	}
-	//printf("%d", m[1][n]);
+	printf("최소 곱셈 횟수 : %d\n", m[1][n]);
+	printf("어떻게 곱해야 하는가? : ");
+	PrintOptimalParen(k_position, 1, n);
 	return 0;
 }

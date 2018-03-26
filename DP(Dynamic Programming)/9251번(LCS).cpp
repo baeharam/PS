@@ -27,6 +27,7 @@ int main(void)
 
 	std::cin >> s1 >> s2;
 
+
 	LCS(s1, s2);
 
 	std::cout << dp[s1.size()][s2.size()];
