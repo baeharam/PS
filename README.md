@@ -8,7 +8,7 @@ PS란 **Problem Solving** 의 약자로, 주어진 문제에 대해 제한된 �
 
 
 
-<img src="./삼성전자.png" height="100px"><img src="./삼성sds.jpg" height="100px"><img src="./카카오.jpeg" height="100px"><img src="./라인.png" height="100px"><img src="./우아한형제들.png" height="100px"><img src="./SK hynix.png" height="100px"><img src="./lg cns.jpg" height="100px"><img src="./네이버.jpg" height="100px">
+<img src="images/삼성전자.png" height="100px"><img src="images/삼성sds.jpg" height="100px"><img src="images/카카오.jpeg" height="100px"><img src="images/라인.png" height="100px"><img src="images/우아한형제들.png" height="100px"><img src="images/SK hynix.png" height="100px"><img src="images/lg cns.jpg" height="100px"><img src="images/네이버.jpg" height="100px">
 
 
 
