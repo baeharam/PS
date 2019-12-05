@@ -14,7 +14,7 @@ PS란 **Problem Solving** 의 약자로, 주어진 문제에 대해 제한된 �
 
 
 
-이외에도 수많은 대기업 및 중소기업들이 코딩테스트를 첫 관문으로 두고 있으며 이를 통과하지 못할 경우, 면접조차 볼 수 없는 것이 현실입니다. 이런 현실 속에서 첫 관문을 헤쳐나가기 위해선 적정선의 PS 실력 이상을 반드시 갖추어야 합니다. 하지만 견고한 PS 실력을 갖추기 위해선 최대한 저학년부터 연습을 해야 그에 대한 사고력을 체계적으로 키울 수 있습니다.
+이외에도 수많은 대기업 및 중소기업들이 코딩테스트를 첫 관문으로 두고 있으며 이를 통과하지 못할 경우, 면접조차 볼 수 없는 것이 현실입니다. 이런 현실 속에서 첫 관문을 헤쳐나가기 위해선 적정선의 PS 실력 이상을 반드시 갖추어야 합니다. 하지만 견고한 PS 실력을 갖추기 위해선 최대한 일찍 연습을 해야 그에 대한 사고력을 체계적으로 키울 수 있습니다.
 
 <br>
 
@@ -33,7 +33,7 @@ PS란 **Problem Solving** 의 약자로, 주어진 문제에 대해 제한된 �
 3. 그 다음, [**C++ 배우기**](https://www.acmicpc.net/workbook/view/566) 문제집을 전부 풀어봅시다.
 4. 다 풀었으면 [**구현**](https://www.acmicpc.net/problem/tag/구현) 으로 가서 1000명 이상이 푼 문제를 전부 풀어봅시다.
 5. 여기까지 풀었으면, 백준 시스템에 익숙해졌고 기초적인 구현 능력을 갖추게 됩니다.
-6. 자 이제, 기초적인 지식부터 차례대로 공부하면서 문제푸는 연습을 합시다. [**굉장히 좋은 블로그**](https://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220769859177&categoryNo=299&parentCategoryNo=0&viewDate=&currentPage=13&postListTopCurrentPage=&from=postList&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=13) 를 통해서 쉬운 난이도의 알고리즘부터 차근차근 연습할 수 있습니다. (완전탐색, DFS, BFS, DP, 그리디, 분할정복, 이분탐색 ….)
+6. 자 이제, 기초적인 지식부터 차례대로 공부하면서 문제푸는 연습을 합시다. [**굉장히 좋은 블로그**](https://blog.naver.com/PostView.nhn?blogId=kks227&logNo=220769859177&categoryNo=299&parentCategoryNo=0&viewDate=&currentPage=13&postListTopCurrentPage=&from=postList&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=13) 를 통해서 쉬운 난이도의 [알고리즘]([https://ko.wikipedia.org/wiki/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98](https://ko.wikipedia.org/wiki/알고리즘)) 부터 차근차근 연습할 수 있습니다. (완전탐색, DFS, BFS, DP, 그리디, 분할정복, 이분탐색 ….)
 7. 알고리즘을 공부한 뒤에 이분이 **추천하는 문제를 전부** 풀어보고, 그 외에도 **백준에 있는 비슷한 문제들을 풀어보는 방식** 으로 공부를 합시다.
 
 여기까지 오셨다면, 이제 혼자 힘으로 PS를 공부할 역량을 갖추시게 되니 모르는 알고리즘/자료구조를 공부하면서 문제풀이 연습을 지속해서 하시면 됩니다 :) 백준 이외에도 [Codeforces](https://codeforces.com/) 를 통해 대회를 연습할 수 있고 [프로그래머스](https://programmers.co.kr/) 를 통해 코딩 테스트 환경을 연습해 볼 수 있습니다.
